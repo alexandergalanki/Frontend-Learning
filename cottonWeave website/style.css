@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 100px;
+    gap:70px;
+}
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: salmon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#left h1{
+font-size: 100px;
+font-weight: 100;
+line-height: 110px;
+}
+#btmleft{
+    height: 50%;
+    width: 100%;
+    /* background-color: salmon; */
+}
+#colors{
+    /* background-color: blue; */
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 10px 15px;
+    border: 1px solid black;
+}
+#colors h5{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+#color1{
+    height: 20px;
+    width: 20px;
+    border-color: 1px solid #000;
+    background-color: blueviolet;
+    border-radius: 50%;
+    margin:1px;
+}
+#color2{
+    height: 20px;
+    width: 20px;
+    border-color: 1px solid #000;
+    background-color: salmon;
+    border-radius: 50%;
+    margin:1px;
+}
+#left h2{
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#left p{
+    font-size: 30x;
+    width: 70%;
+    color: gray;
+    font-weight: 600;
+    line-height: 20px;
+}
+#right{
+    height: 90%;
+    width: 33%;
+    /* background-color: cornflowerblue; */
+    position: relative;
+}
+#righttop{
+    height: 80px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+#righttop h4{
+    font-size: 20px;
+}
+#righttop h5{
+    font-size: 15px;
+}
+#righttop h5 i{
+    color: gold;
+}
+#right img{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+}
+#black{
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    background-color:black;
+    color:white;
+    border-radius: 50%;
+    right: -15%;
+    top: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rotated{
+    position: absolute;
+    left: -8%;
+    bottom: 5%;
+    rotate: -90deg;
+    /* background-color: red; */
+    transform-origin: 0 0;
+    font-size: 20px;
+    font-weight:700 ;
+}
